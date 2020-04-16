@@ -1,0 +1,61 @@
+[{
+    "humanInfo" : {
+        "id": "1",
+        "name": "Maddy",
+        "image": "http://www.placecage.com/100/100",
+        "age": "30",
+        "location": "Portland, OR"
+        
+    }, 
+    "dogInfo" : {
+        "name": "Benji",
+        "images": {
+            "img_1": "http://placekitten.com/100/100",
+            "img_2": "http://placekitten.com/100/100",
+            "img_3": "http://placekitten.com/100/100"
+        },
+        "bread": "Schitzu Mix",
+        "size": "small"
+    }
+},
+{
+    "humanInfo" : {
+        "id": "2",
+        "name": "Greg",
+        "image": "http://www.placecage.com/100/100",
+        "age": "38",
+        "location": "Seattle, WA"
+            
+    }, 
+    "dogInfo" : {
+        "name": "Sandwich",
+        "images": {
+            "img_1": "http://placekitten.com/100/100",
+            "img_2": "http://placekitten.com/100/100",
+            "img_3": "http://placekitten.com/100/100"
+        },
+        "bread": "Weener Dog",
+        "size": "small"
+    }
+}, {
+    "humanInfo" : {
+        "id": "3",
+        "name": "Peter",
+        "image": "http://www.placecage.com/100/100",
+        "age": "34",
+        "location": "Seattle, WA"
+            
+    }, 
+    "dogInfo" : {
+        "name": "Morrice",
+        "images": {
+            "img_1": "http://placekitten.com/100/100",
+            "img_2": "http://placekitten.com/100/100",
+            "img_3": "http://placekitten.com/100/100"
+        },
+        "bread": "Huskie",
+        "size": "large"
+    }
+}]
+
+    
