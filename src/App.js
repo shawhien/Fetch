@@ -16,7 +16,6 @@ const App = () => {
   const modifyChoices = (userId, action) => {
     const newPeople = [...people];
     const newLikedUsers = [...likedUsers];
-    const newSuperLikedUsers = [...superLikedUsers];
     const newDislikedUsers = [...dislikedUsers];
 
     switch (action) {
