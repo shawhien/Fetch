@@ -1,18 +1,20 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom'
 import './App.css';
-
-import Profile from './components/UserProfile';
+import Content from './content/Content'
 
 function App() {
   return (
-    <div className="App">
-      <main>
-        <UserProfile />
-      </main>
-      <div className="nav-bar">
-        
+    <Router>
+      <div className="App">
+        <main>
+          <Content />
+        </main>
+        <div className="nav-bar">
+          
+        </div>
       </div>
-    </div>
+    </Router>
   )
 }
 
