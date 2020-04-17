@@ -6,7 +6,12 @@ import Benson3 from '../assets/Benson3.jpg';
 import Benson4 from '../assets/Benson4.jpg';
 import Card from 'react-bootstrap/Card'
 
-export default function Profile(props) {
+import Header from '../assets/header.png';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
+
+export default function BensonProfile(props) {
     const User = {
         humanInfo: {
             id: 3,
@@ -47,10 +52,17 @@ export default function Profile(props) {
         }
     }
     return (
-        <div>
-            <div calss="title"><h3>Fetch</h3></div>
+        <div className="everything">
+            <div calssName="thetitle">
+                <img src={Header}></img>
+            </div>
             <Card className="profile-card">
                 <Card.Img className="images prof-image"  variant="top" src={User.dogInfo.images.profpic} />
+                <div>
+                    <a href="/"><FontAwesomeIcon color="#d6d6d6" size="4x" className="icons" icon={faTimesCircle} /></a>
+                    <a href="/profile/yappy"><FontAwesomeIcon color="#02D1A3" className="icons" size="4x" icon={faHeart} /></a>
+                
+                </div>
                 <Card.Body>
                     <Card.Title className="prof-title">🦴{User.dogInfo.name}, {User.dogInfo.age} years old</Card.Title>
                     <Card.Subtitle className="prof-subtitle">

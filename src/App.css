@@ -13,12 +13,18 @@
   }
 }
 
-body {
+.everything {
   background-color: #EFEFEF;
 }
 
+.everything .images {
+  border-radius: 3%;
+  background-color: #EFEFEF;
+}
 
-
+.everything .prof-image {
+  border-radius: 50%;
+}
 
 .prof-title {
   font-size: 25px;
@@ -34,12 +40,18 @@ body {
   height: 20px;
 }
 
+.card-img-top {
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
 .profile-card {
   margin: 0 auto;
   margin-bottom: 15px;
   border-radius: 3%;
   width: 95%;
   background-color: white;
+  border: solid white 1px;
 }
 
 .text-card-title {
@@ -75,12 +87,20 @@ body {
 }
 
 .prof-image {
+  margin: 0 auto;
   border-radius: 50%;
-  margin-top: 25px;
+  margin-top: 20px;
+}
+
+.icons {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 0px;
 }
 
 .image-card {
   border-radius: 3%;
+  width: 90%;
 }
 
 .q-and-a {
@@ -101,9 +121,8 @@ body {
 .images {
   width: 95%;
   height: 95%;
-  
 }
-/* .App-header {
+.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -112,7 +131,7 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-} */
+}
 
 .App-link {
   color: #61dafb;
@@ -127,12 +146,10 @@ body {
   }
 }
 
-.title h3 {
-  font-size: 70px;
+.thetitle {
+  margin: 0 auto;
   height: 20px;
   width: 200px;
-  background-color: #02D1A3;
-  border: solid black 1px;
 }
 
 
