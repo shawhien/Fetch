@@ -56,6 +56,26 @@
         "bread": "Huskie",
         "size": "large"
     }
+}, {
+    "humanInfo" : {
+        "id": "4",
+        "name": "Mads",
+        "image": "../../assets/Mads.png",
+        "age": "26",
+        "location": "Seattle, WA"
+            
+    }, 
+    "dogInfo" : {
+        "name": "Emmy",
+        "images": {
+            "profpif": "../../assets/beachEmmy.png",
+            "img_1": "../../assets/emmyFace.png",
+            "img_2": "../../assets/sessyEmmy.png",
+            "img_3": "../../assets/hardWordEmmy.png"
+        },
+        "bread": "English Springer Spaniel",
+        "size": "Medium"
+    }
 }]
 
     
