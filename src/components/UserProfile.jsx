@@ -4,18 +4,17 @@ import beachEmmy from '../assets/beachEmmy.png';
 import emmyFace from '../assets/emmyFace.png';
 import sessyEmmy from '../assets/sessyEmmy.png';
 import hardWorkEmmy from '../assets/hardWorkEmmy.png';
+import Header from '../assets/header.png';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
+
 
 import Card from 'react-bootstrap/Card'
 // import { Container, Col, Row } from 'reactstrap';
 // import ProfilePic from './ProfilePic';
 // // import MatchButton from './MatchButton';
 // // import AppHeader from './AppHeader';
-
-
-<!-- import { Container, Col, Row } from 'reactstrap'; -->
-// import MatchButton from './MatchButton';
-// import AppHeader from './AppHeader';
-
 
 export default function Profile(props) {
     const User = {
@@ -58,10 +57,17 @@ export default function Profile(props) {
         }
     }
     return (
-        <div>
-            <div calss="title"><h3>Fetch</h3></div>
+        <div className="everything">
+            <div>
+                <h3 className="thetitle">Fetch</h3>
+            </div>
             <Card className="profile-card">
                 <Card.Img className="images prof-image"  variant="top" src={User.dogInfo.images.profpic} />
+                <div>
+                    <a href="/profile/emmy/chat"><FontAwesomeIcon color="#d6d6d6" size="4x" className="icons" icon={faTimesCircle} /></a>
+                    <a href="/profile/emmy/chat"><FontAwesomeIcon color="#02D1A3" className="icons" size="4x" icon={faHeart} /></a>
+                
+                </div>
                 <Card.Body>
                     <Card.Title className="prof-title">🦴{User.dogInfo.name}, {User.dogInfo.age} years old</Card.Title>
                     <Card.Subtitle className="prof-subtitle">
@@ -93,14 +99,15 @@ export default function Profile(props) {
                                 🍸Socially        📏5'5
                             </div>
                             <div>
-                                👨‍💻GA Student Wellness Rep
+                                👨‍💻GA Student Experience
                             </div>
                             <div>
                                 🚬No              🌿No     
                             </div>
                         </div>
                         <div className="text-card-text">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        Funny, sweet, can spark joy in even the grumpiest of furballs.
+                        Spends her time making everyone at GA feel safe and happy! Or snuggling with me 🐕‍!
                         </div>
                         <div className="space">
                         </div>
@@ -146,43 +153,9 @@ export default function Profile(props) {
                     </div>
                 </Card.Body>
             </Card>
+
         </div>
     )
 }
-
-
-// //I didn't delete anything I just commented it out!
-// <!-- const Profile = props => {
-
-//     return (
-//         <Container>
-//             <Row>
-//                 <Col sm="12" md={{ size: 6, offset: 3 }}>
-//                     <ProfilePic imageLink="https://www.placecage.com/200/200"/>
-//                 </Col>
-//             </Row>
-//             <Row>
-//                 <Col sm="12" md={{ size: 6, offset: 3 }}>
-//                     <h1 className="user-name">Dragon</h1>
-//                 </Col>
-//             </Row>
-//             <Row>
-//                 <Col sm={{ size: 11, offset: 1 }} md={{ size: 6, offset: 3 }}>
-//                     <div className="about-me">
-//                         <p> Looking for love through doggos!</p>
-//                         <p>Click match to know more about me!</p>
-//                     </div>
-//                 </Col>
-//             </Row>
-//             <Row>
-//                 <Col sm={{ size: 8, offset: 2 }} md={{ size: 4, offset: 4 }}>
-//                     <MatchMsgButton text="Find Match!" link="/1" />
-//                 </Col>
-//             </Row>
-//         </Container>
-//     )
-// }
-
-// export default Profile -->
 
 
