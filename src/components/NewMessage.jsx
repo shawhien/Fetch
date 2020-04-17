@@ -2,10 +2,11 @@ import React from 'react'
 
 import ChatInput from './ChatInput'
 
-const Message = props => {   
+const Message = props => {  
+    // new messages go here 
     return (
         <div>
-            {/* new messages go here */}
+            {}
         </div>
     )
 }
