@@ -10,9 +10,7 @@ import Card from 'react-bootstrap/Card'
 // import ProfilePic from './ProfilePic';
 // // import MatchButton from './MatchButton';
 // // import AppHeader from './AppHeader';
-
-
-<!-- import { Container, Col, Row } from 'reactstrap'; -->
+import { Container, Col, Row } from 'reactstrap';
 // import MatchButton from './MatchButton';
 // import AppHeader from './AppHeader';
 
