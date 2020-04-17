@@ -1,39 +1,28 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import beachEmmy from '../assets/beachEmmy.png';
-import emmyFace from '../assets/emmyFace.png';
-import sessyEmmy from '../assets/sessyEmmy.png';
-import hardWorkEmmy from '../assets/hardWorkEmmy.png';
-
+import Benson1 from '../assets/Benson1.jpg';
+import Benson2 from '../assets/Benson2.jpg';
+import Benson3 from '../assets/Benson3.jpg';
+import Benson4 from '../assets/Benson4.jpg';
 import Card from 'react-bootstrap/Card'
-// import { Container, Col, Row } from 'reactstrap';
-// import ProfilePic from './ProfilePic';
-// // import MatchButton from './MatchButton';
-// // import AppHeader from './AppHeader';
-
-
-<!-- import { Container, Col, Row } from 'reactstrap'; -->
-// import MatchButton from './MatchButton';
-// import AppHeader from './AppHeader';
-
 
 export default function Profile(props) {
     const User = {
         humanInfo: {
-            id: 4,
-            name: "Mads",
-            image: "../../assets/Mads.png",
-            age: 26,
+            id: 3,
+            name: "Jenn",
+            image: "",
+            age: 27,
             location: "Seattle, WA"
                 
         }, 
         dogInfo: {
-            name: "Emmy",
+            name: "Benson",
             images: {
-                profpic: beachEmmy,
-                img_1: emmyFace,
-                img_2: sessyEmmy,
-                img_3: hardWorkEmmy
+                profpic: Benson1,
+                img_1: Benson2,
+                img_2: Benson3,
+                img_3: Benson4
             },
             breed: "English Springer Spaniel",
             size: "Medium",
@@ -47,14 +36,14 @@ export default function Profile(props) {
             gender: "Everything"
         },
         questions: {
-            a: "Where is your favorite place to walk with your Hooman?",
-            b: "What's you most favorite food?",
-            c: "When I meet a stranger I..."
+            a: "My ideal first doggie date:",
+            b: "My hooman's favorite treat:",
+            c: "Ideal Sunday = snuggling hooman and:"
         },
         answers: {
-            a: "My Hooman and I love exploring the beach!",
-            b: "GREENIES",
-            c: "I'm a little shy, so I like to hide first and sniff later."
+            a: "Hit up a dog friendly winery!!",
+            b: "Yellow cake with chocolate frosting and custard filling 😊",
+            c: "Brunchin with Beson every sunday once this quarentine is over!"
         }
     }
     return (
@@ -93,14 +82,18 @@ export default function Profile(props) {
                                 🍸Socially        📏5'5
                             </div>
                             <div>
-                                👨‍💻GA Student Wellness Rep
+                                📝UX Designer
                             </div>
                             <div>
                                 🚬No              🌿No     
                             </div>
                         </div>
                         <div className="text-card-text">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        Behavior therapist turned UX Designer.
+
+                        Wine tasting, Netflix, dancing, lifting, piano, doggo and nephew snuggles.
+
+                        Let's make a plan for a post-quarentine doggie date!
                         </div>
                         <div className="space">
                         </div>
@@ -149,40 +142,3 @@ export default function Profile(props) {
         </div>
     )
 }
-
-
-// //I didn't delete anything I just commented it out!
-// <!-- const Profile = props => {
-
-//     return (
-//         <Container>
-//             <Row>
-//                 <Col sm="12" md={{ size: 6, offset: 3 }}>
-//                     <ProfilePic imageLink="https://www.placecage.com/200/200"/>
-//                 </Col>
-//             </Row>
-//             <Row>
-//                 <Col sm="12" md={{ size: 6, offset: 3 }}>
-//                     <h1 className="user-name">Dragon</h1>
-//                 </Col>
-//             </Row>
-//             <Row>
-//                 <Col sm={{ size: 11, offset: 1 }} md={{ size: 6, offset: 3 }}>
-//                     <div className="about-me">
-//                         <p> Looking for love through doggos!</p>
-//                         <p>Click match to know more about me!</p>
-//                     </div>
-//                 </Col>
-//             </Row>
-//             <Row>
-//                 <Col sm={{ size: 8, offset: 2 }} md={{ size: 4, offset: 4 }}>
-//                     <MatchMsgButton text="Find Match!" link="/1" />
-//                 </Col>
-//             </Row>
-//         </Container>
-//     )
-// }
-
-// export default Profile -->
-
-
