@@ -13,11 +13,97 @@
   }
 }
 
-.images {
-  width: 300px;
-  height: 300px;
+body {
+  background-color: #EFEFEF;
 }
-.App-header {
+
+
+
+
+.prof-title {
+  font-size: 25px;
+}
+
+.prof-subtitle {
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.space {
+  height: 20px;
+}
+
+.profile-card {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  border-radius: 3%;
+  width: 95%;
+  background-color: white;
+}
+
+.text-card-title {
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.text-card-sub {
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+.text-card-op {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 250px;
+}
+
+.text-card-text {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 250px;
+}
+
+.Text-card {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  border-radius: 3%;
+  width: 95%;
+  text-align: left;
+  background-color: white;
+}
+
+.prof-image {
+  border-radius: 50%;
+  margin-top: 25px;
+}
+
+.image-card {
+  border-radius: 3%;
+}
+
+.q-and-a {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.q-and-a-text {
+  margin: 0 auto;
+  border-radius: 3%;
+  width: 90%;
+  text-align: left;
+  padding-top: 1px;
+  padding-left: 15px;
+  background-color: white;
+}
+
+.images {
+  width: 95%;
+  height: 95%;
+  
+}
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -26,7 +112,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -40,3 +126,12 @@
     transform: rotate(360deg);
   }
 }
+
+.title h3 {
+  font-size: 70px;
+  height: 20px;
+  width: 200px;
+  background-color: #02D1A3;
+  border: solid black 1px;
+}
+
