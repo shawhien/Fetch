@@ -135,3 +135,21 @@ body {
   border: solid black 1px;
 }
 
+
+.nav-bar {
+  min-width: 100vw;
+  background-color: white;
+  border-top: 1px solid rgba(128, 128, 128, 0.178);
+}
+
+.nav-button-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 90vw;
+}
+
+.nav-button {
+  padding: 1em;
+}
+

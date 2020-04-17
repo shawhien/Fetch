@@ -12,6 +12,11 @@ import Card from 'react-bootstrap/Card'
 // // import AppHeader from './AppHeader';
 
 
+<!-- import { Container, Col, Row } from 'reactstrap'; -->
+// import MatchButton from './MatchButton';
+// import AppHeader from './AppHeader';
+
+
 export default function Profile(props) {
     const User = {
         humanInfo: {
@@ -145,6 +150,7 @@ export default function Profile(props) {
     )
 }
 
+
 // //I didn't delete anything I just commented it out!
 // <!-- const Profile = props => {
 
@@ -178,4 +184,5 @@ export default function Profile(props) {
 // }
 
 // export default Profile -->
+
 
