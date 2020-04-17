@@ -40,7 +40,7 @@ export default function Profile(props) {
             },
             breed: "English Springer Spaniel",
             size: "Medium",
-            temperment: "Sweet as can be!",
+            temperment: "Sweet as can be, but with a little spice!",
             age: "5"
         },
         preferences: {
@@ -62,8 +62,8 @@ export default function Profile(props) {
     }
     return (
         <div className="everything">
-            <div>
-                <h3 className="thetitle">Fetch</h3>
+          <div className="thetitle">
+            <p>Fetch</p>
             </div>
             <Card className="profile-card">
                 <Card.Img className="images prof-image"  variant="top" src={User.dogInfo.images.profpic} />

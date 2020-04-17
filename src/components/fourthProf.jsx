@@ -49,8 +49,8 @@ export default function FourthProf(props) {
     }
     return (
         <div className="everything">
-            <div calssName="thetitle">
-                <img src={Header}></img>
+            <div className="thetitle">
+            <p>Fetch</p>
             </div>
             <Card className="profile-card">
                 <Card.Img className="images prof-image"  variant="top" src={User.dogInfo.images.profpic} />

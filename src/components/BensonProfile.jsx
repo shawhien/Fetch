@@ -53,13 +53,13 @@ export default function BensonProfile(props) {
     }
     return (
         <div className="everything">
-            <div calssName="thetitle">
-                <img src={Header}></img>
+            <div className="thetitle">
+            <p>Fetch</p>
             </div>
             <Card className="profile-card">
                 <Card.Img className="images prof-image"  variant="top" src={User.dogInfo.images.profpic} />
                 <div>
-                    <a href="/"><FontAwesomeIcon color="#d6d6d6" size="4x" className="icons" icon={faTimesCircle} /></a>
+                    <a href="/profile/yappy"><FontAwesomeIcon color="#d6d6d6" size="4x" className="icons" icon={faTimesCircle} /></a>
                     <a href="/profile/yappy"><FontAwesomeIcon color="#02D1A3" className="icons" size="4x" icon={faHeart} /></a>
                 
                 </div>

@@ -147,9 +147,26 @@
 }
 
 .thetitle {
+  background-color: #02D1A3;
+  color: white;
   margin: 0 auto;
+  padding-bottom: 20px;
+  vertical-align: center;
+  height: 55px; 
+  font: Lato;
+  font-size: 40px;
+}
+
+.titlespace {
+  background: #02D1A3;
+  color: white;
   height: 20px;
-  width: 200px;
+  padding: 50px;
+  vertical-align: center;
+  position: relative;
+  font: Lato;
+  font-size: 40px;
+  
 }
 
 
