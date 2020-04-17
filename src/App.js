@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom'
 import './App.css';
 import Content from './content/Content'
 //import NavBottom from '../components/NavBottom';
@@ -35,9 +34,22 @@ function App() {
                 </Row>
         </Container>
         </div>
+
+// import Content from './components/Content'
+// import NavBottom from './components/NavBottom';
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <main>
+//         <Content />
+//       </main>
+//       <div className="nav-bar">
+//         <NavBottom />
+
       </div>
-    </Router>
-  )
+    </div>
+  );
 }
 
 export default App;
